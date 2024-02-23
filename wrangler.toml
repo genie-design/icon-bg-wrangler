@@ -1,6 +1,11 @@
 name = "icon-bg"
 main = "src/index.ts"
 compatibility_date = "2024-02-08"
+compatibility_flags = [ "nodejs_compat" ]
+browser = { binding = "MYBROWSER" }
+kv_namespaces = [
+  { binding = "ICON_BG_BROWSER", id = "e9e640bafcad4f209ea15100ab55bed1", preview_id = "3173e485b38b446884546f227f78515d" }
+]
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
