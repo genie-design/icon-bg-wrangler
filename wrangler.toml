@@ -1,4 +1,4 @@
-name = "icon-bg"
+name = "icon-bg-worker"
 main = "src/index.ts"
 compatibility_date = "2024-02-08"
 compatibility_flags = [ "nodejs_compat" ]
